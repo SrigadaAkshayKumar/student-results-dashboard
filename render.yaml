@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: student-results-app
+    runtime: docker
+    plan: free
+    repo: https://github.com/SrigadaAkshayKumar/student-results-dashboard
+    branch: main
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: PORT
+        value: 8501
