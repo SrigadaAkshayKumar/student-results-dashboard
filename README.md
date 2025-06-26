@@ -16,20 +16,26 @@ A **Streamlit-based web application** to analyze and visualize student results d
 ---
 
 ## Project Structure
-
-student-results-dashboard/
-│
-├── app.py # Main Streamlit application
-├── Dockerfile # Docker configuration
-├── requirements.txt # Python dependencies
-├── render.yaml # Render deployment config
-├── utils/
-│ └── loader.py # Optional helper scripts (e.g., data loading)
-└── data/
-└── 3rd_year/
-├── sem1.csv
-└── sem2.csv
-
+```bash
+Directory structure:
+└── srigadaakshaykumar-student-results-dashboard/
+  ├── README.md
+  ├── app.py
+  ├── Dockerfile
+  ├── render.yaml
+  ├── requirements.txt
+  ├── data/
+  │    └── 2022/
+  │      ├── 1st_year/
+  │      │  └── sem2.csv
+  │      ├── 2nd_year/
+  │      │  ├── sem1.csv
+  │      │  └── sem2.csv
+  │      └── 3rd_year/
+  │         └── sem1.csv
+  └── utils/
+      └── data_loader.py
+```
 ---
 
 ## Installation (Local)
