@@ -38,6 +38,14 @@ Directory structure:
 ```
 ---
 
+## Demo
+
+**Screenshot-1**
+![Screenshot 2025-06-27 002821](https://github.com/user-attachments/assets/d8519164-e182-4020-a847-1b9940346c9f)
+
+**Screenshot-2**
+![Screenshot 2025-06-27 002902](https://github.com/user-attachments/assets/05765791-622f-46bd-8470-b69d8a68f6d1)
+
 ## Installation (Local)
 
 ### 1. Clone the Repository
