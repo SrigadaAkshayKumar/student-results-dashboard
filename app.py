@@ -8,9 +8,9 @@ st.set_page_config(page_title="Student Results Dashboard", layout="wide")
 st.title("Student Results Analysis - Data Science Department")
 
 # Sidebar Navigation
-Batch = st.sidebar.radio("Select Batch", ["2021", "2022"])
+Batch = st.sidebar.radio("Select Batch", ["2022", "2021"])
 year = st.sidebar.radio("Select Year", ["1st Year", "2nd Year", "3rd Year", "4th Year"])
-sem = st.sidebar.radio("Select Semester", ["1st Semester", "2nd Semester"])
+sem = st.sidebar.radio("Select Semester", ["2nd Semester", "1st Semester"])
 
 # File path
 year_folder = year.lower().replace(" ", "_")
